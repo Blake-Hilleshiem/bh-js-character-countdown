@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .model-container {
+  border: 2px solid gray;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .model-container h3 {
+  font-size: 2rem;
+}
+
+body .model-container .input-container {
+  height: 40px;
+  width: 280px;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body .model-container .input-container .text-input {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+body .model-container .remain-char-display-container {
+  height: 100px;
+  width: 280px;
+  padding-left: 30px;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #a8a8a8;
+}
+/*# sourceMappingURL=countdown.css.map */
